@@ -1,0 +1,34 @@
+[
+  {
+    "accountId": "ACC-001",
+    "accountNumber": "****5678",
+    "accountType": "checking",
+    "balance": 15000.0,
+    "currency": "USD",
+    "cards": [
+      {
+        "cardId": "CARD-001",
+        "cardNumber": "****1234",
+        "cardHolderName": "John Doe",
+        "cardType": "debit",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "accountId": "ACC-002",
+    "accountNumber": "****9012",
+    "accountType": "savings",
+    "balance": 25000.0,
+    "currency": "USD",
+    "cards": [
+      {
+        "cardId": "CARD-002",
+        "cardNumber": "****5678",
+        "cardHolderName": "John Doe",
+        "cardType": "debit",
+        "status": "active"
+      }
+    ]
+  }
+]

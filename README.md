@@ -14,10 +14,8 @@ REST API version of the mock card-limit MCP server.
 
 ```bash
 cd /home/milad/Projects/limit-api
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-uvicorn main:app --reload --host 0.0.0.0 --port 2010
+uv sync
+uv run uvicorn main:app --reload --host 0.0.0.0 --port 2010
 ```
 
 Open Swagger UI:

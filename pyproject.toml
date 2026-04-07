@@ -1,0 +1,10 @@
+[project]
+name = "limit-api"
+version = "0.1.0"
+description = "REST API version of the mock card-limit MCP server."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi==0.135.1",
+    "uvicorn[standard]==0.41.0",
+]
